@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Open Sans Condensed:300,700' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="aboutme.js"></script>
+  <title>About Me</title>
+</head>
+<body>
+  <div id="header">
+    <img id="profile-pic" src="profpic.jpeg" alt="Deepal's profile picture" height="70" width = "50" onmouseover="bigImg(this)" onmouseout="normalImg(this)"/> Deepal
+    <span id="navigation">
+      <a href="contact.html">Contact</a>
+      <a href="aboutmepage.html">Home</a>
+    </span>
+  </div>
+
+  <div class="content">
+    <button id="show/hide" onclick="showHideSection('bio')">Hide Bio</button>
+  </div>
+  <div id="bio" class="content"><!-- Use divs to break up the sections of your website. Use the id attribute if you want your CSS to uniquely isolate this element, or use the class attribute if you want to isolate a group of elements. -->
+    <h1 id="title" onclick="newWords()">Bio:</h1>
+    <p>
+      My name is Deepal Sanghrajka, and I am currently a Computer Science major
+      at the University of California, Irvine. My hobbies include reading, watching
+      Netflix, and coding.
+    </p>
+
+    <p>
+      <strong>Likes:</strong> I love dogs! <br>
+      <strong>Dislikes:</strong> I do not like cats...<br>
+    </p>
+
+    <p>
+      <strong>Fun Fact:</strong> My dad's side of the family was born and raised in Kenya!<br>
+    </p>
+
+    <p>
+      <h2>My Webistes:</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/deepal-sanghrajka/">LinkedIn</a>: Careers are important!</li>
+        <li><a href="https://deepalksblog.wordpress.com/">Blog Site</a>: I wrote a blog for one of my classes in college!</li>
+      </ul>
+    </p>
+  </div>
+
+</body>
+</html>
